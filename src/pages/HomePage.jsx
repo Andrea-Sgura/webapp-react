@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -14,7 +15,7 @@ const HomePage = () => {
                             <h3 className="text-secondary">Titolo</h3>
                             <h4><em>Autore</em></h4>
                             <p>Trama</p>
-                            <a href="#">Link</a>
+                            <Link className="btn btn-primary" to="/movies/1">Leggi tutto</Link>
                         </div>
                     </div>
                 </div>
@@ -27,7 +28,7 @@ const HomePage = () => {
                             <h3 className="text-secondary">Titolo</h3>
                             <h4><em>Autore</em></h4>
                             <p>Trama</p>
-                            <a href="#">Link</a>
+                            <Link className="btn btn-primary" to="/movies/2">Leggi tutto</Link>
                         </div>
                     </div>
                 </div>
@@ -40,7 +41,7 @@ const HomePage = () => {
                             <h3 className="text-secondary">Titolo</h3>
                             <h4><em>Autore</em></h4>
                             <p>Trama</p>
-                            <a href="#">Link</a>
+                            <Link className="btn btn-primary" to="/movies/3">Leggi tutto</Link>
                         </div>
                     </div>
                 </div>
@@ -53,7 +54,7 @@ const HomePage = () => {
                             <h3 className="text-secondary">Titolo</h3>
                             <h4><em>Autore</em></h4>
                             <p>Trama</p>
-                            <a href="#">Link</a>
+                            <Link className="btn btn-primary" to="/movies/4">Leggi tutto</Link>
                         </div>
                     </div>
                 </div>
@@ -66,7 +67,7 @@ const HomePage = () => {
                             <h3 className="text-secondary">Titolo</h3>
                             <h4><em>Autore</em></h4>
                             <p>Trama</p>
-                            <a href="#">Link</a>
+                            <Link className="btn btn-primary" to="/movies/5">Leggi tutto</Link>
                         </div>
                     </div>
                 </div>
@@ -79,7 +80,7 @@ const HomePage = () => {
                             <h3 className="text-secondary">Titolo</h3>
                             <h4><em>Autore</em></h4>
                             <p>Trama</p>
-                            <a href="#">Link</a>
+                            <Link className="btn btn-primary" to="/movies/6">Leggi tutto</Link>
                         </div>
                     </div>
                 </div>
